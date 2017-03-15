@@ -62,4 +62,12 @@ gem 'simple_form'
 #devise gem
 gem 'devise'
 
+#Image carrierwave gem
+gem 'carrierwave', '~> 1.0'
+
+#figaro for heroku images
+gem "figaro"
+
+#fog gem for carrierwave to communicate with Amazon S3
+gem 'fog'
 
