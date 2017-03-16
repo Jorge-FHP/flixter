@@ -64,6 +64,10 @@ gem 'devise'
 
 #Image carrierwave gem
 gem 'carrierwave', '~> 1.0'
+#Minimagik
+gem "mini_magick"
+#Image carrierwave-aws gem
+gem 'carrierwave-aws'
 
 #figaro for heroku images
 gem "figaro"
@@ -71,6 +75,5 @@ gem "figaro"
 #fog gem for carrierwave to communicate with Amazon S3
 gem 'fog'
 
-#Minimagik
-gem "mini_magick"
+
 
