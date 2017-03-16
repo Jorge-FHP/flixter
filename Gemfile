@@ -71,3 +71,6 @@ gem "figaro"
 #fog gem for carrierwave to communicate with Amazon S3
 gem 'fog'
 
+#Minimagik
+gem "mini_magick"
+
