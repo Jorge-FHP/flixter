@@ -78,3 +78,5 @@ gem 'fog'
 #stripe
 gem 'stripe'
 
+#rank models gem
+gem 'ranked-model'

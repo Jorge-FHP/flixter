@@ -53,23 +53,17 @@
             <%= section.title %>
           </h3>
           <div class="row">
-            <% section.lessons.each do |lesson| %>
+            <% section.lessons.rank(:row_order).each do |lesson| %>
               <div class="col-12 col-sm-6">
                 <div class="lesson text-center">
                   <br />
-                  <% #if current_user && current_user.enrolled_in?(@course) %>
+
                     <%= link_to lesson_path(lesson) do %>
                       <b><%= lesson.title %></b>
                       <br />
                       <%= lesson.subtitle %>
                     <% end %>
-                  <% if false%>
-                    <div id="no-enroll-font-color">
-                      <b><%= lesson.title %></b>
-                      <br />
-                      <%= lesson.subtitle %>
-                    </div>
-                  <% end %>
+
                 </div>
               </div>
             <% end %>
