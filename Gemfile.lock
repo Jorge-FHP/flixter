@@ -42,13 +42,13 @@ GEM
     arel (7.1.4)
     autoprefixer-rails (6.7.7.1)
       execjs
-    aws-sdk (2.8.9)
-      aws-sdk-resources (= 2.8.9)
-    aws-sdk-core (2.8.9)
+    aws-sdk (2.8.11)
+      aws-sdk-resources (= 2.8.11)
+    aws-sdk-core (2.8.11)
       aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.8.9)
-      aws-sdk-core (= 2.8.9)
+    aws-sdk-resources (2.8.11)
+      aws-sdk-core (= 2.8.11)
     aws-sigv4 (1.0.0)
     bcrypt (3.1.11)
     bootstrap (4.0.0.alpha6)
@@ -225,6 +225,8 @@ GEM
     fog-xml (0.1.2)
       fog-core
       nokogiri (~> 1.5, >= 1.5.11)
+    font-awesome-rails (4.7.0.1)
+      railties (>= 3.2, < 5.1)
     formatador (0.2.5)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
@@ -367,6 +369,7 @@ DEPENDENCIES
   devise
   figaro
   fog
+  font-awesome-rails
   jbuilder (~> 2.5)
   jquery-rails
   jquery-ui-rails

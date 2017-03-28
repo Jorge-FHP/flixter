@@ -84,3 +84,6 @@ gem 'stripe'
 
 #rank models gem
 gem 'ranked-model'
+
+#font-awesome gem
+gem "font-awesome-rails"

@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500');
+@import "font-awesome";
 
 body {
   background: image_url('diagonal_striped_brick.png');
@@ -111,4 +112,42 @@ h1, h2, h3, h4, h5, h6, .navbar {
 
 #no-enroll-font-color {
   color: white;
+}
+
+ul {
+ list-style: none;
+}
+
+.section-li {
+  border: 1px solid;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 20px;
+  margin: 20px;
+}
+
+ul .header {
+  font-size: 25px;
+}
+
+ul .header .fa {
+  font-size: 20px;
+}
+
+.lessons li {
+  background: black;
+  color: white;
+  margin: 10px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.lessons li b {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+.lessons li p {
+  margin: 0;
 }
